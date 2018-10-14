@@ -4,7 +4,7 @@
 ## Challenge
   Find better ways to save lives and prevent economic losses through mechanisms to predict, prevent, or manage the impact of natural disasters.
 
-
+## Abstract
   Natural Language Processing will be implemented with the use of Machine Learning techniques on text data mined from Twitter and News sites with the help of APIs to collect the mentions of natural disasters such as flood, earthquake, cyclone, tsunami, forest fires etc. and then identify the geographical location of the calamity in order to create some sort of alert notification to the public in that area and also the different governmental and non-governmental organisations in order to minimise the loss of life and also of the economy in an efficient manner. Facebook's Disaster Maps' data can also be used to identify the population density, movement data and safety checks ratio according to the geospatial mapping in the calamity struck area. Using these data we will be able to predict the population which requires help in order to minimise the loss of life and economy.
   
 ## Details
