@@ -21,44 +21,44 @@
 <hr>
 
 ## Workflow for the Solution
- Tweets from Twitter and News articles from News API are collected using Tweepy and News API. 
+ 1. Tweets from Twitter and News articles from News API are collected using Tweepy and News API. 
   
- Natural Language Processing is being used to identify the tweets which are relevant to disasters and location of the disaster is extracted from the relecant data.
+ 2. Natural Language Processing is being used to identify the tweets which are relevant to disasters and location of the disaster is extracted from the relecant data.
 
-  We are using Machine Learning algorithm for predicting the severity of the earthquake based on the Earthquake dataset available on
+ 3. We are using Machine Learning algorithm for predicting the severity of the earthquake based on the Earthquake dataset available on
  Kaggle.The dataset contains the magnitude,Latitude and Longitude of the earthquakes in last 65 years.Now we have the complete predicted 
  data in JSON form which we can get using a Location API.
  
   ![json](https://user-images.githubusercontent.com/25566552/47602743-af421980-da00-11e8-8436-d7ef5fc8bff6.png)
 
   
-  Creation of Location API which updates the Admin with recent Twitter data and various News api's data.
+ 4. Creation of Location API which updates the Admin with recent Twitter data and various News api's data.
   
   ![api_fetch](https://user-images.githubusercontent.com/25566552/47602808-66d72b80-da01-11e8-8e99-eec3c221dd30.png)
 
   
-  Creation of a user-login application which has two types of users(Admin and Public User).
+ 5. Creation of a user-login application which has two types of users(Admin and Public User).
   
   ![login_page](https://user-images.githubusercontent.com/25566552/47603047-1a411f80-da04-11e8-9d9d-b0ad0ad97742.png)
   
    
-  We have a registration page for new users whose credentials are being stored in a Mongodb Database.
+ 6. We have a registration page for new users whose credentials are being stored in a Mongodb Database.
   
   ![registration_page](https://user-images.githubusercontent.com/25566552/47602837-a43bb900-da01-11e8-9094-035d408f4844.png)
 
    
-  Role of the Admin is to update the Location API in every regular interval.
+ 7. Role of the Admin is to update the Location API in every regular interval.
   
   ![admin_page](https://user-images.githubusercontent.com/25566552/47602843-c2091e00-da01-11e8-91ca-35468d467566.png)
   
   
-  The application uses geolocation feature to fetch the current location of the User.
+ 8. The application uses geolocation feature to fetch the current location of the User.
   
   
   ![fetching_coordinates](https://user-images.githubusercontent.com/25566552/47602986-97b86000-da03-11e8-8892-bb19f7a30ec5.jpg)
   
   
-  After fetching the current location we are using the Euclidean Distance formula considering the Latitude and Longitude and will alert the user with a proper notification of the nearest calamity with proper details based on the calculated Euclidean Distance.
+ 9. After fetching the current location we are using the Euclidean Distance formula considering the Latitude and Longitude and will alert the user with a proper notification of the nearest calamity with proper details based on the calculated Euclidean Distance.
   
   ![final_image](https://user-images.githubusercontent.com/25566552/47602994-a0109b00-da03-11e8-95d3-037594c1ae5b.jpg)
 
