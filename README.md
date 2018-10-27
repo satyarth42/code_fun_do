@@ -33,17 +33,36 @@
 
   
   Creation of Location API which updates the Admin with recent Twitter data and various News api's data.
+  
+  ![api_fetch](https://user-images.githubusercontent.com/25566552/47602808-66d72b80-da01-11e8-8e99-eec3c221dd30.png)
 
+  
   Creation of a user-login application which has two types of users(Admin and Public User).
+  
+  ![login_page](https://user-images.githubusercontent.com/25566552/47603047-1a411f80-da04-11e8-9d9d-b0ad0ad97742.png)
+  
    
   We have a registration page for new users whose credentials are being stored in a Mongodb Database.
+  
+  ![registration_page](https://user-images.githubusercontent.com/25566552/47602837-a43bb900-da01-11e8-9094-035d408f4844.png)
+
    
   Role of the Admin is to update the Location API in every regular interval.
-   
-  The application uses geolocation feature to fetch the current location of the User.
-   
-  After fetching the current location we are using the Euclidean Distance formula considering the Latitude and Longitude and will alert the user with a proper notification of the nearest calamity with proper details based on the calculated Euclidean Distance.      
   
+  ![admin_page](https://user-images.githubusercontent.com/25566552/47602843-c2091e00-da01-11e8-91ca-35468d467566.png)
+  
+  
+  The application uses geolocation feature to fetch the current location of the User.
+  
+  
+  ![fetching_coordinates](https://user-images.githubusercontent.com/25566552/47602986-97b86000-da03-11e8-8892-bb19f7a30ec5.jpg)
+  
+  
+  After fetching the current location we are using the Euclidean Distance formula considering the Latitude and Longitude and will alert the user with a proper notification of the nearest calamity with proper details based on the calculated Euclidean Distance.
+  
+  ![final_image](https://user-images.githubusercontent.com/25566552/47602994-a0109b00-da03-11e8-95d3-037594c1ae5b.jpg)
+
+
 ## Dataset used 
 [Disasters on Kaggle](https://www.kaggle.com/usgs/earthquake-database#database.csv)<br/>
 [Disasters on social media](https://www.figure-eight.com/data-for-everyone/)
