@@ -41,7 +41,7 @@
  8. After fetching the current location we are using the Euclidean Distance formula considering the Latitude and Longitude and will alert the user with a proper notification of the nearest calamity with proper details based on the calculated Euclidean Distance.      
   
 ## Dataset used 
-[Disasters on Kaggle](https://www.kaggle.com/usgs/earthquake-database#database.csv)
+[Disasters on Kaggle](https://www.kaggle.com/usgs/earthquake-database#database.csv)<br/>
 [Disasters on social media](https://www.figure-eight.com/data-for-everyone/)
 
 ## Technologies and Libraries Used
