@@ -17,3 +17,32 @@
 ## Dataset to be used
 [Disasters on social media](https://www.figure-eight.com/data-for-everyone/)
 
+# Solution for codefundo++
+<hr>
+
+## Workflow for the Solution
+  
+ 1 We are using Natural Processing Language to extract names of relevant cities from data collected from Twitter and various News Api's.
+  
+ 2 We are using Machine Learning algorithm for predicting the severity of the earthquake based on the Earthquake dataset available on
+ Kaggle.The dataset contains the magnitude,Latitude and Longitude of the earthquakes in last 65 years.Now we have the complete predicted 
+ data in JSON form which we can get using a Location API.
+  
+ 3 Creation of Location API which updates the Admin with recent Twitter data and various News api's data.
+
+ 4 Creation of a user-login application which has two types of users(Admin and Public User).
+   
+ 5 We have a registration page for new users whose credentials are being stored in a Mongodb Database.
+   
+ 6 Role of the Admin is to update the Location API in every regular interval.
+   
+ 7 The application uses geolocation feature to fetch the current location of the User.
+   
+ 8 After fetching the current location we are using the Euclidean Distance formula considering the Latitude and Longitude and will alert the user with a proper notification of the nearest calamity with proper details based on the calculated Euclidean Distance.      
+  
+## Dataset used 
+[Disasters on Kaggle](https://www.kaggle.com/usgs/earthquake-database#database.csv)
+
+## Technologies Used
+
+  1. 
